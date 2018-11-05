@@ -1,5 +1,11 @@
 <!-- Ici démarre le code de votre footer -->
 
+</main>
+<footer class="jumbotron jumbotron-fluid mb-0 mt-5 py-2 darkBg text-center">
+  <div class="container">
+    <p class="lead">Ce site a était crée par Jonathan JACQUET pour un exercice en PHP avec la formation Simplon à l'ADEP de Roubaix</p>
+  </div>
+</footer>
   <script src="js/vendor/modernizr-3.6.0.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

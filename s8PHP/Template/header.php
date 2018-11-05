@@ -18,17 +18,11 @@
 </head>
 
 <body>
-<!--
-  ~~~~~~~~~~~~~~~~~~~~~~~~ | STAR HEADER | ~~~~~~~~~~~~~~~~~~~~~~~~
-  -->
-  <section class="jumbotron jumbotron-fluid">
-  <div class="container">
-    <h1 class="display-4">Site e-commerce</h1>
-    <p class="lead">Voici le meilleur site e-commerce du MONDE!</p>
-  </div>
-</section>
+  <section class="jumbotron jumbotron-fluid darkBg">
+    <div class="container">
+      <h1 class="display-4">Simplon commerce</h1>
+      <p class="lead">Un exemple de site intégrant Bootstrap et du PHP sans bases de données</p>
+    </div>
+  </section>
 
-<main class="container">
-<!--
-  ~~~~~~~~~~~~~~~~~~~~~~~~ | END HEADER | ~~~~~~~~~~~~~~~~~~~~~~~~
--->
+  <main class="container">

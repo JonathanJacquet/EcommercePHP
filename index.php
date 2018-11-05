@@ -3,11 +3,11 @@
     include "Template/header.php"
 ?>
 
-<main>
+
 <?php
-  if(isset($_GET["message"])) {
-    $message = $_GET["message"];
-    echo "<p> Attention : $message</p>";
+ // if(isset($_GET["message"])) {
+   // $message = $_GET["message"];
+    //echo "<p> Attention : $message</p>";
   }
 ?>
 
@@ -22,4 +22,7 @@
   </div>
   <button type="submit" class="btn btn-primary">Envoyer</button>
 </form>
-</main>
+
+ <?php
+ include "Template/footer.php"
+  ?>
