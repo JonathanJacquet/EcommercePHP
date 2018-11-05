@@ -4,18 +4,15 @@ require "Model/function.php";
 
 $users = getUsers();
 
-var_dump($users);
 
-
-foreach ($users as $key => $user) {
+foreach ($users as $user) {
   if($user["name"] === $_POST["name"] && $user["password"] === $_POST["password"]) {
     session_start();
-    $_SESSION["user"] = $_POST;
+    $_SESSION["user"] = $user;
     header("Location: products.php");
     exit;
   }
 }
-
 header("Location: index.php?message=Attention je ne conais pas ces identifiants");
 exit;
  ?>
