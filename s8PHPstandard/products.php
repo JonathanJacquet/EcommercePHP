@@ -13,15 +13,16 @@ include "Template/header.php";
 $products = getProducts();
  ?>
 
- <div class="row mt-5">
-    <section class="col-lg-9">
-      <h2>Nos derniers produits</h2>
-      <div class="container-fluide">
-        <div class="row">
+
           <?php
             //On boucle pour afficher tous les produits contenus dans la variable products
             foreach ($products as $key => $product) {
           ?>
+          <div class="row mt-5">
+             <section class="col-lg-9">
+               <h2>Nos derniers produits</h2>
+               <div class="container-fluide">
+                 <div class="row">
           <article class="col-lg-6 my-4">
             <div class="card">
               <div class="card-body">
