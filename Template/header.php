@@ -21,7 +21,7 @@
 <!--
   ~~~~~~~~~~~~~~~~~~~~~~~~ | STAR HEADER | ~~~~~~~~~~~~~~~~~~~~~~~~
   -->
-  <section class="jumbotron jumbotron-fluid bg-gradient-danger">
+  <section class="jumbotron jumbotron-fluid bg-danger">
   <div class="container">
     <h1 class="display-4">Site e-commerce</h1>
     <p class="lead">Voici le meilleur site e-commerce du MONDE!</p>

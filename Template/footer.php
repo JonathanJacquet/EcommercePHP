@@ -1,7 +1,7 @@
 <!-- Ici démarre le code de votre footer -->
 
 </main>
-<footer class="jumbotron jumbotron-fluid mb-0 mt-5 py-2 darkBg text-center">
+<footer class="jumbotron jumbotron-fluid mb-0 mt-5 py-2 bg-danger text-center">
   <div class="container">
     <p class="lead">Ce site a était crée par Jonathan JACQUET pour un exercice en PHP avec la formation Simplon à l'ADEP de Roubaix</p>
   </div>
