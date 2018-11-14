@@ -1,12 +1,12 @@
 <aside class="col-lg-3">
-  <i class="fas fa-user-ninja fa-4x mb-3"></i>
+<i class="fas fa-user-circle fa-5x"></i>
   <ul class="list-group">
     <?php
-    //On boucle sur l'utilisateur stocké en session pour afficher toutes ses informations
-    session_start();
     foreach ($_SESSION["user"] as $key => $value) {
       echo "<li class='list-group-item'>$key : $value</li>";
     }
+    echo $_SESSION["total"];
     ?>
+   <a href="logout.php"><button type="button" class="btn btn-danger">Déconnexion</button></a>
   </ul>
 </aside>

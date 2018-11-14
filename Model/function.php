@@ -66,6 +66,8 @@ function getProducts() {
       "made_in"=> "Britain"
     ]
   ];
+
+  
 }
 
  ?>
